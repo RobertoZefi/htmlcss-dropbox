@@ -59,8 +59,9 @@ SECTION 1
 .container.section1{
     margin: 0 auto;
     max-width: 1300px;
-    min-height: 775px;
+    min-height: 720px;
     padding-top: 50px;
+    position: relative;
 }
 
 .row.section1{
@@ -76,7 +77,6 @@ SECTION 1
 .col.section1.testo{
     flex-basis: 30%;
     font-size: 18px;
-    position: relative;
 }
 
 .bottone.prova{
@@ -96,6 +96,7 @@ SECTION 1
 
 .img-coordinate{
     max-width: 900px;
+    position: absolute;
 }
 
 .arrow{
