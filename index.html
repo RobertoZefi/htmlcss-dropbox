@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/4161a56faa.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 <body class="ebug">
     <header class="header">
@@ -53,11 +55,11 @@
         <div class="container section1">
             <div class="row section1">
                 <div class="col section1 title">
-                    <h1 class="title">Tutto ciò che ti serve per il lavoro, in uin unico posto</h1>
+                    <h1 class="title">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 </div>
                 <div class="col section1 testo">
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto, Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                    <a class="bottone" href="">Inizia la tua prova gratuita</a>
+                    <a class="bottone prova" href="">Inizia la tua prova gratuita</a>
                     <p>Annulla in qualsiasi momento</p>
                     <i class="arrow fa-solid fa-arrow-down"></i>
                 </div>
@@ -70,34 +72,163 @@
 
     <section class="section2">
         <div class="container section2">
+            <h1>Trova il piano business che fa per te</h1>
+            <input type="radio" value=""> <span class="radio">Fatturazione mensile</span>
+            <input type="radio"> <span>Fatturazione annuale</span>
             <div class="row section2">
                 <div class="col section2">
                     <header>
-                        <p>Singolo</p>
+                        <p class="singolo">Singolo</p>
                     </header>
                     <div class="main-content">
                         <h2>Professional</h2>
                         <p>€ 12.00</p>
                         <p class="mese">/mese</p>
                         <div>
-                            <p>1 Utente</p>
-                            <p>5 TB di spazio di archiviazione sicuri</p>
-                            <p>Funzioni di attività premium e condivisione file semplice e sicura</p>
+                            <ul>
+                                <li>
+                                    <p class="utente icon">1 Utente</p>
+                                </li>
+                                <li>
+                                    <p class="spazio icon">5 TB di spazio di archiviazione sicuri</p>
+                                </li>
+                                <li>
+                                    <p class="share icon">Funzioni di attività premium e condivisione file semplice e sicura e altre attività</p>
+                                </li>
+                            </ul>                                                     
                         </div>
                         <a class="bottone" href="">Prova gratis per 30 giorni</a>
+                        <p class="linea">Oppure <a href="">acquista ora</a></p>
+                        <div class="punti-salienti">
+                            <strong>Punti salienti del piano</strong>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <p class="item-salienti">Invia file fino a 100gb con Dropbox Transfert</p>
+                                    </li>
+                                    <li>
+                                        <p class="item-salienti">Cartelle offline su dispositivi mobili</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col section2">
-                    testo
-                </div>
+
 
                 <div class="col section2">
-                    testo
+                    <header>
+                        <p class="team">Team</p>
+                    </header>
+                    <div class="main-content">
+                        <h2>Advanced</h2>
+                        <p>€ 18.00</p>
+                        <p class="mese">/utente/mese</p>
+                        <div>
+                            <ul>
+                                <li>
+                                    <p class="team icon">3 o più utenti</p>
+                                </li>
+                                <li>
+                                    <p class="spazio icon">Tutto lo spazio di cui ha bisogno il tuo team</p>
+                                </li>
+                                <li>
+                                    <p class="share icon">Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p>
+                                </li>
+                            </ul>                                                     
+                        </div>
+                        <a class="bottone" href="">Prova gratis per 30 giorni</a>
+                        <p class="linea">Oppure <a href="">acquista ora</a></p>
+                        <div class="punti-salienti">
+                            <strong>Punti salienti del piano</strong>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <p class="item-salienti">Nessun limite di spazio per i file</p>
+                                    </li>
+                                    <li>
+                                        <p class="item-salienti">Cartelle offline su dispositivi mobili</p>
+                                    </li>
+                                    <li>
+                                        <p class="item-salienti">Risparmio del 50% rispetto alle iscrizioni singole</p>
+                                    </li>
+                                    <li>
+                                        <p class="item-salienti">Possibilità di inserire nuovi membri del team</p>
+                                    </li>
+                                    <li>
+                                        <p class="item-salienti">Gestione di permessi in base ai ruoli</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col section2">
+                    <header>
+                        <p class="azienda">Azienda</p>
+                    </header>
+                    <div class="main-content">
+                        <h2>Enterprise</h2>
+                        <p>Contattaci</p>
+                        <p class="mese">/-</p>
+                        <div>
+                            <ul>
+                                <li>
+                                    <p class="utente icon">10 o più utenti</p>
+                                </li>
+                                <li>
+                                    <p class="spazio icon">Soluzioni personalizzabili per la tua azienda</p>
+                                </li>
+                                <li>
+                                    <p class="share icon">Assistenza personalizzata per aiutare gli amministratori su larga scala</p>
+                                </li>
+                            </ul>                                                     
+                        </div>
+                        <a class="bottone" href="">Contattaci</a>
+                        <p class="linea">Oppure <a href="">acquista ora</a></p>
+                        <div class="punti-salienti">
+                            <strong>Punti salienti del piano</strong>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <p class="item-salienti">Cartelle offline su dispositivi mobili </p>
+                                    </li>
+                                    <li>
+                                        <p class="item-salienti">Servizio assistenza 24/h</p>
+                                    </li>
+                                    <li>
+                                        <p class="item-salienti">Possibilità di personalizzazione totale</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col section2 enterprise">
-                    testo
+                    <header>
+                        <p class="azienda">Team</p>
+                    </header>
+                    <div class="main-content">
+                        <div class="row-enterprise">
+                            <div class="row-col">
+                                <div class="col-enterprise">
+                                    <h2>Enterprise</h2>
+                                    <strong>Contatta l'ufficio vendite per i prezzi</strong>
+                                </div>
+                                <div class="col-enterprise">
+                                    <a class="bottone" href="">Contatta l'ufficio vendite</a>
+                                </div>
+                            </div>
+                            <div class="col-enterprise">
+                                <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p> 
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

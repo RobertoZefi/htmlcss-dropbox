@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 img{
@@ -21,7 +22,11 @@ a{
     background-color: rgb(0, 97, 255);
     color: white;
     padding: 5px 13px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
 }
+
 
 /*****************
 HEADER
@@ -64,26 +69,29 @@ SECTION 1
 }
 
 .col.section1.title{
-    flex-basis: 90%;
+    flex-basis: 95%;
     margin-bottom: 40px;
 }
 
 .col.section1.testo{
     flex-basis: 30%;
-    font-size: 25px;
+    font-size: 18px;
     position: relative;
 }
 
-.bottone{
-    margin-bottom: 20px;
+.bottone.prova{
+    margin: 30px 0;
+    font-size: 15px;
 }
 
-.col.section1.img{
-    flex-grow: 1;
+.col-section1-img{
+    flex-basis: 70%;
 }
 
 .title{
     font-size: 75px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
 }
 
 .img-coordinate{
@@ -104,35 +112,46 @@ SECTION 2
 .container.section2{
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 150px;
+}
+
+.container.section2>h1{
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.radio{
+    margin-right: 50px;
 }
 
 .row.section2{
     display: flex;
     flex-wrap: wrap;
     gap: calc(10%/2);
+    font-size: 14px;
+    padding-top: 40px;
 }
 
 .col.section2{
-flex-basis: 30%;
-border: 1px solid black;
-height: 900px;
+    flex-basis: 30%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 930px;
 }
 
 .col.section2.enterprise{
     flex-basis: 100%;
-    height: 260px;
+    height: 230px;
     margin-top: 30px;
 }
 
 .col.section2>header{
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding: 10px;
 }
 
 .main-content{
-    padding: 20px;
+    padding: 25px;
 }
 
 .main-content>h2{
@@ -145,14 +164,114 @@ height: 900px;
 
 .main-content>.mese{
     margin-bottom: 50px;
+    margin-top: -10px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
-.main-content>div>p{
-    margin-bottom: 15px;
+.main-content>div>ul>li{
+    margin-bottom: 25px;
+    text-align: justify;
 }
 
 .main-content>.bottone{
     margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.linea::after{
+    content:"";
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 40px;
+    padding-left: 10px;
+    display: block;
+    margin-top: 40px;
+}
+
+.punti-salienti{
+    margin-top: 50px;
+}
+
+.punti-salienti>strong{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.punti-salienti>div>ul>li>p{
+    margin-bottom: 20px;
+}
+
+.row-col{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-enterprise{
+    margin-bottom: 50px;
+}
+
+.col-enterprise>h2{
+    margin-bottom: 15px;
+}
+
+/*ICON*/
+
+
+.utente::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f007";
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.spazio::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f07b";
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.share::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f1e0";
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.item-salienti::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f00c";
+    margin-right: 5px;
+    font-size: 15px;
+    color:  rgb(0, 97, 255);
+}
+
+.singolo::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f007";
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.team::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f0c0";
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.azienda::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f1ad";
+    margin-right: 5px;
+    font-size: 15px;
 }
 
 /*****************
