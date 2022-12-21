@@ -53,7 +53,7 @@ SECTION 1
 
 .container.section1{
     margin: 0 auto;
-    max-width: 1250px;
+    max-width: 1300px;
     min-height: 775px;
     padding-top: 50px;
 }
@@ -64,15 +64,37 @@ SECTION 1
 }
 
 .col.section1.title{
-    flex-basis: 100%;
+    flex-basis: 90%;
+    margin-bottom: 40px;
 }
 
 .col.section1.testo{
-    flex-basis: 35%;
+    flex-basis: 30%;
+    font-size: 25px;
+    position: relative;
+}
+
+.bottone{
+    margin-bottom: 20px;
 }
 
 .col.section1.img{
     flex-grow: 1;
+}
+
+.title{
+    font-size: 75px;
+}
+
+.img-coordinate{
+    max-width: 900px;
+}
+
+.arrow{
+    position: absolute;
+    bottom: 20px;;
+    left: 0;
+    font-size: 50px;
 }
 
 /*****************
