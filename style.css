@@ -33,7 +33,7 @@ HEADER
 *****************/
 
 .header{
-    padding: 20px;
+    padding: 13px;
 }
 
 .row.head{
@@ -46,6 +46,7 @@ HEADER
     display: flex;
     align-items: center;
     gap: 30px;
+    font-size: 14px;
 }
 
 /*****************
@@ -213,6 +214,52 @@ SECTION 2
 
 .col-enterprise>h2{
     margin-bottom: 15px;
+}
+
+
+/*****************
+SECTION 3
+*****************/
+
+.row.section3{
+    display: flex;
+}
+
+
+.col.section3.img-partner{
+    flex-basis: 60%;
+}
+
+.col.section3.card{
+    flex-basis: 40%;
+}
+
+
+.img-partner{
+    max-width: 624px;
+}
+
+.card{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.card>h2{
+    padding-bottom: 20px;
+}
+
+.card>a{
+    padding: 0 15px;
+    line-height: 40px;
+    border: 2px solid black;
+    margin-top: 25px;
+    display: block;
+    width: fit-content;
+}
+
+.card>a:hover{
+    background-color: black;
+    color:white
 }
 
 /*ICON*/
